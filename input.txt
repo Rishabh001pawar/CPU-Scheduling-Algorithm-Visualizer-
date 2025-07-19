@@ -1,0 +1,19 @@
+# Process Input File for CPU Scheduling Visualizer
+# -----------------------------------------------
+# Each line represents a single process in the format:
+# ProcessName  ArrivalTime  BurstTime  Priority
+#
+# Notes:
+# - ProcessName: Identifier (e.g., P1, P2, etc.)
+# - ArrivalTime: Time at which the process arrives (integer)
+# - BurstTime  : Total CPU time required (integer)
+# - Priority   : Scheduling priority (lower number = higher priority)
+#
+# Lines starting with '#' are ignored as comments.
+# Empty lines are also ignored.
+#
+# Example:
+P1 0 5 2
+P2 1 3 1
+P3 2 8 3
+P4 3 6 2
